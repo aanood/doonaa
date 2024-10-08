@@ -1,42 +1,35 @@
 <!DOCTYPE html>
-<html">
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="table.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"crossorigin>  
+    <link rel="stylesheet" href="table.css">
     <title>Document</title>
 </head>
-</html>
-<table>
-    <tr>
-        <th> IMAGE</th>
-        <th>VISUAL</th>
-        <th> DESCRIPTION</th>
+<body>
+    <table>
         <tr>
-          <td>  <img src="https://tse4.mm.bing.net/th/id/OIP.TjBNXWlIeS008Y7zpTr31gHaE8?rs=1&pid=ImgDetMain"/>
-            </td>
-                
+            <th>Type</th>
+            <th>Example</th>
+            <th>Description</th>
         </tr>
-    </tr>
-
-    <tr>
-        <td>IMAGE</td>
-        <td>IMAGE WILL GO HERE</td>
-        <td>ADD A BREIF DESCRIPTION</td>
-    </tr>
-
-     <tr>
-        <td>Audio</td> 
-        <td> audio will go there</td>
-        <td>add a breif discription</td>
-     </tr>
-
-     <tr>
-        <td>Video</td>
-        <td> video will go there</td>
-        <td>add a breif discription </td>
-     </tr>
-
-     
-</table>
+        <tr>
+            <td>Images</td>
+            <td><img src="img.jpg" height="100" width="200"></td>
+            <td>Add a brief Description</td>
+        </tr>
+        <tr>
+            <td>Audio</td>
+            <td><audio controls class="audio">
+                <source src="audio.mp3" type="audio/ogg">
+            </audio></td>
+            <td>Add a brief Description</td>
+        </tr>
+        <tr>
+            <td>Videos</td>
+            <td><video controls src="video.mp4" height="100" width="200"></video></td>
+            <td>Add a brief Description</td>
+        </tr>
+    </table>
+</body>
+</html>

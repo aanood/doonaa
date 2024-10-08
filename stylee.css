@@ -1,0 +1,9 @@
+button{
+    color: aliceblue;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    bottom: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 80px;
+}
